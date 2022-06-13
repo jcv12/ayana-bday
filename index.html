@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+
+<div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+<div class="center">
+    <button class="custom-btn btn-6" onclick="myFunction()">Click Me Hoe</button>
+</div>
+
+<script>
+function myFunction() {
+  const myWindow = window.open("./sketch.html", "", "width=550,height=540");
+  myWindow.opener.document.getElementById("demo").innerHTML = "HELLO!";
+}
+</script>
+
+</body>
+</html>

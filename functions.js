@@ -1,5 +1,5 @@
 function setup() {
-    mycanvas=createCanvas(800, 800);
+    mycanvas=createCanvas(500, 500);
        mycanvas.elt.style = 'width:'+displayHeight/2+'px; height:'+displayHeight/2+'px;';
     background(background_color);
     

@@ -1,5 +1,5 @@
-n = 3;
-d = 4;
+n = 7;
+d = 2;
 
 theta = 0;
 rmax = 130; // edge of screen is 200
